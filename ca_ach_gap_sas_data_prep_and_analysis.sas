@@ -124,7 +124,7 @@ https://github.com/johnbville/ca_ach_gap_sas/blob/master/data/dropouts1516.xls?r
 %let inputDataset4DSN = dropouts1516_raw;
 
 
-* load raw datasets over the wire, if they doesn't already exist;
+* load raw datasets over the wire, if they don't already exist;
 %macro loadDataIfNotAlreadyAvailable(dsn,url,filetype);
     %put &=dsn;
     %put &=url;
